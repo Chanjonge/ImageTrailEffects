@@ -190,8 +190,9 @@ a:focus {
 	font-family: forma-djr-display, sans-serif;
 	font-weight: 700;
 	position: relative;
+	
 	z-index: 10000;
-	font-size: 27vw;
+	font-size: 18vw;
 	mix-blend-mode: var(--blendmode-title);
 	-webkit-text-stroke: 2px var(--color-title);
 	text-stroke: 2px var(--color-title);
@@ -214,7 +215,7 @@ a:focus {
 .content__img--full {
 	width: 100%;
 	height: 100%;
-	background-size: cover;
+	background-size: contain;
 }
 
 @media screen and (min-width: 53em) {
